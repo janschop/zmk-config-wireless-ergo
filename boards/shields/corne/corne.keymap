@@ -67,7 +67,7 @@
 //              | GUI | ALT | BKSP|  1  |   |  2  | SPC  | RALT| GUI |
                         bindings = <
    &kp TAB   &kp Q       &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P          &bootloader
-   &kp LCTRL &mt LCTRL A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &mt LCTRL SEMI &kp SQT
+   &kp LCTRL &mt LCTRL A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp I   &mt LCTRL SEMI &kp SQT
    &kp LSHFT &mt LSHFT Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &mt LSHFT FSLH &kp ESC
                  &kp RET &kp LGUI &kp BSPC &sl 1   &sl 2 &kp SPACE &sl 4 &kp LGUI
                         >;
