@@ -7,15 +7,15 @@
 #include "corne.dtsi"
 
 &default_transform {
-    col-offset = <3>;
+    col-offset = <6>;
 };
 
 &five_column_transform {
-    col-offset = <3>;
+    col-offset = <6>;
 };
 
 &kscan0 {
-    col-gpios
+   /* col-gpios
         = <&pro_micro 8 GPIO_ACTIVE_HIGH>
         , <&pro_micro 9 GPIO_ACTIVE_HIGH>
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
@@ -23,4 +23,5 @@
         , <&pro_micro 20 GPIO_ACTIVE_HIGH>
         , <&pro_micro 21 GPIO_ACTIVE_HIGH>
         ;
+        */
 };
